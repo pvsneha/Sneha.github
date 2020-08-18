@@ -1,0 +1,66 @@
+html>
+<head>
+<script>
+function show(shown, hidden) {
+  document.getElementById(shown).style.display='block';
+  document.getElementById(hidden).style.display='none';
+  return false;
+}
+</script>
+</head>
+<body>
+
+  <div id="Page1">
+    Cuttlefish or cuttles[3] are marine molluscs of the order Sepiida. They belong to the class Cephalopoda, which also includes squid, octopuses, and nautiluses. Cuttlefish have a unique internal shell, the cuttlebone.
+    <a href="#" onclick="return show('Page2','Page1');">Show page 2</a>
+  </div>
+
+  <div id="Page2" style="display:none">
+   <p> Cuttlefish eat small molluscs, crabs, shrimp, fish, octopus, worms, and other cuttlefish. Their predators include dolphins, sharks, fish, seals, seabirds, and other cuttlefish. The average life expectancy of a cuttlefish is about 1–2 years. Studies are said to indicate cuttlefish to be among the most intelligent invertebrates.[5] Cuttlefish also have one of the largest brain-to-body size ratios of all invertebrates.[5]
+    
+    The "cuttle" in cuttlefish comes from the Old English name for the species, cudele, which may be cognate with the Old Norse koddi (cushion) and the Middle Low German Kudel (rag).[6] The Greco-Roman world valued the cuttlefish as a source of the unique brown pigment the creature releases from its siphon when it is alarmed. The word for it in both Greek and Latin, sepia, now refers to the reddish-brown color sepia in English.</p>
+  <table>
+  <tr>
+  <td>  Scientific classificatione</td>
+  </tr>
+  <tr>
+  <td>  Kingdom:
+    Animalia</td>
+   <tr>
+   <td> Phylum:
+    Mollusca</td>
+    </tr>
+    <tr>
+    <td>
+    Class:
+    Cephalopoda</td>
+    </tr>
+   <tr>
+   <td> Superorder:
+    Decapodiformes</td>
+    </tr>
+   <tr>
+   <td> Order:
+    Sepiida
+    Zittel, 1895</td>
+    </tr>
+   <tr>
+   <td> Suborders and families
+    †Vasseuriina
+    †Vasseuriidae
+    †Belosepiellidae
+    Sepiina
+    †Belosaepiidae
+    Sepiadariidae
+    Sepiidae
+    Sepiolidae Leach, 1817</td>
+    </tr>
+   <tr>
+   <tr> Synonyms
+  <td>  Sepiolida Fioroni, 198</td>
+  </tr>
+    <a href="#" onclick="return show('Page1','Page2');">Show page 1</a>
+  </div>
+
+</body>
+</html>
